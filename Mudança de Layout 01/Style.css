@@ -1,0 +1,100 @@
+*{
+  border: 0;
+  padding: 0;
+  text-decoration:none;
+  list-style: none;
+}
+
+/* _________________ Header ______________ */
+/* fontes : 
+font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif; 
+*/
+
+body{
+  background: rgb(154, 149, 149);
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul{
+  display: flex;
+  gap: 80px;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  margin-right: 90px;
+
+}
+
+nav ul a{
+  color: #fff;
+}
+
+nav ul a:hover{
+  color: rgb(242, 174, 73) ;
+  font-size: 24px;
+  transition: .4s;
+
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 56px;
+
+  color: #fff;
+  text-align: start;
+  padding-left: 35px;
+}
+
+strong{
+  color: rgb(242, 174, 73);
+}
+
+header .image{
+  display: inline-block;
+  margin-left: 35px;
+}
+
+.backimage{
+border: 120px solid rgb(255, 255, 255);
+position: relative;
+z-index: -1;
+top: -230px;
+}
+
+/* ________________ Main _______________ */
+
+main{
+  margin-top: -220px;
+  margin-left: 35px;
+}
+
+.backimage2{
+  border: 1px solid white;
+  display:flex;
+  
+}
+
+main p{
+  color: #fff;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+.balls{
+  position:fixed;
+  right: 0;
+  top: 295px;
+  margin-right: 18px;
+}
+
+/* ______________Finish ______________*/
